@@ -64,7 +64,7 @@ class Teste1Consumer {
         log.info("message={}", message);
         log.info("headers={}", headers);
 
-        messageTemplate.convertAndSend("http://localhost:4576/queue/test2", message);
+        messageTemplate.convertAndSend("http://localhost:4576/queue/test2", "Teste2");
     }
 }
 

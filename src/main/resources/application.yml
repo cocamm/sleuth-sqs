@@ -12,3 +12,5 @@ cloud:
 spring:
   main:
     web-application-type: none
+  application:
+    name: sleuth-sqs
