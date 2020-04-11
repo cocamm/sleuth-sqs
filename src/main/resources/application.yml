@@ -1,0 +1,14 @@
+server:
+  port: 7080
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: us-east-1
+
+
+spring:
+  main:
+    web-application-type: none
